@@ -1,0 +1,38 @@
+.pdb.mgx {
+    margin: 0;
+    padding: 1.5em 0;
+    /* display: flex; */
+}
+
+.pdb.mg-btn {
+    display: flex;
+    margin-top: 0;
+}
+
+.pdb.mgx button, .btns {
+    outline: none;
+    border: none;
+    margin: 0 .3em;
+    padding: .4em 2.5em;
+    border-radius: .2em;
+    font-size: 1.3em;
+    color: white;
+    border-radius: 1.8em;
+    background: linear-gradient(
+    60deg,
+    #f79533,
+    #f37055,
+    #ef4e7b,
+    #a166ab,
+    #5073b8,
+    #1098ad,
+    #07b39b,
+    #6fba82
+  );
+}
+
+.btns {
+    font-size: 1em;
+    padding: 1em 2.5em;
+
+}

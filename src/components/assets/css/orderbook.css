@@ -1,0 +1,85 @@
+.footer-table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0 70px;
+}
+table {
+    width: 50%;
+    padding-right: 2em;
+    background-color: #333;
+}
+
+table, th, td{
+    border-bottom: 1px solid gold;
+    padding: 1em;
+    text-align: center;
+}
+
+th {
+    height: 3em;
+    font-size: 1.6rem;
+    color: gold;
+}
+
+td{
+    font-size: 1.2rem;
+}
+
+tr.buy-row {
+    background-color: green;
+}
+
+tr.buy-row td {
+    color: white;
+}
+
+td button {
+    outline: none;
+    border: none;
+    padding: .5em 2em;
+    color: white;
+    border-radius: .2em;
+    background-color: transparent;
+}
+
+td button.buy {
+    color: white;
+    background-color: lightgreen;
+    border: 2px solid lightgreen;
+    color: black;
+}
+
+td button.sell {
+    background-color: orangered;
+    border: 2px solid orangered;
+}
+
+span.title {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    table {
+        background-color: transparent;
+    }
+    
+    table thead{
+        display: none;
+    }
+
+    table, table tbody, table tr, table td {
+        display: block;
+        width: 100%;
+    }
+
+    table tr {
+        margin-bottom: 2em;
+        background-color: #333;
+    }
+
+    span.title {
+        display: block;
+        color: gold;
+    }
+}
